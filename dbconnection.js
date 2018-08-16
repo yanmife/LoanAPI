@@ -5,7 +5,7 @@ const db = mysql.createConnection({
     host : "localhost",
     user : "root",
     password : "",
-    database : "loan-trust_db"
+    database : "loantrust_db"
 });
 
 //Connect

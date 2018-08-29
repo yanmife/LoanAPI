@@ -17,5 +17,9 @@ db.connect((err) => {
     console.log("Mysql Connected...")
 });
 
+setInterval(function () {
+    db.query('SELECT 1');
+}, 86400);
+
 module.exports = db;
 
